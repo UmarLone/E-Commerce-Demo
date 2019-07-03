@@ -7,3 +7,12 @@ C:\Users\Developer\Desktop\eShopOnWeb-master\eShopOnWeb-master\src\ApplicationCo
 C:\Users\Developer\Desktop\eShopOnWeb-master\eShopOnWeb-master\src\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.AssemblyInfo.cs
 C:\Users\Developer\Desktop\eShopOnWeb-master\eShopOnWeb-master\src\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.dll
 C:\Users\Developer\Desktop\eShopOnWeb-master\eShopOnWeb-master\src\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.pdb
+C:\Users\Predator\Desktop\Demo\E-Commerce-Demo\eShopOnWeb-master\src\ApplicationCore\bin\Debug\netstandard2.0\ApplicationCore.deps.json
+C:\Users\Predator\Desktop\Demo\E-Commerce-Demo\eShopOnWeb-master\src\ApplicationCore\bin\Debug\netstandard2.0\ApplicationCore.dll
+C:\Users\Predator\Desktop\Demo\E-Commerce-Demo\eShopOnWeb-master\src\ApplicationCore\bin\Debug\netstandard2.0\ApplicationCore.pdb
+C:\Users\Predator\Desktop\Demo\E-Commerce-Demo\eShopOnWeb-master\src\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.csprojAssemblyReference.cache
+C:\Users\Predator\Desktop\Demo\E-Commerce-Demo\eShopOnWeb-master\src\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Predator\Desktop\Demo\E-Commerce-Demo\eShopOnWeb-master\src\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Predator\Desktop\Demo\E-Commerce-Demo\eShopOnWeb-master\src\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\Predator\Desktop\Demo\E-Commerce-Demo\eShopOnWeb-master\src\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.dll
+C:\Users\Predator\Desktop\Demo\E-Commerce-Demo\eShopOnWeb-master\src\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.pdb

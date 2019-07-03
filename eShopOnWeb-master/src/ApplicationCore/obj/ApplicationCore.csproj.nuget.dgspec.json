@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\raj\\Desktop\\Dev\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj": {}
+    "C:\\Users\\Predator\\Desktop\\Demo\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\raj\\Desktop\\Dev\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\Predator\\Desktop\\Demo\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\raj\\Desktop\\Dev\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\Predator\\Desktop\\Demo\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\raj\\Desktop\\Dev\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\raj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\raj\\Desktop\\Dev\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\obj\\",
+        "projectPath": "C:\\Users\\Predator\\Desktop\\Demo\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\Predator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Predator\\Desktop\\Demo\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\raj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Predator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

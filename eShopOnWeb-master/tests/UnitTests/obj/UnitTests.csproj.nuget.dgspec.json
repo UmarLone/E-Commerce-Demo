@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\raj\\Desktop\\Dev\\E-Commerce-Demo\\eShopOnWeb-master\\tests\\UnitTests\\UnitTests.csproj": {}
+    "C:\\Users\\Predator\\Desktop\\Demo\\E-Commerce-Demo\\eShopOnWeb-master\\tests\\UnitTests\\UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\raj\\Desktop\\Dev\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\Predator\\Desktop\\Demo\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\raj\\Desktop\\Dev\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\Predator\\Desktop\\Demo\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\raj\\Desktop\\Dev\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\raj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\raj\\Desktop\\Dev\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\obj\\",
+        "projectPath": "C:\\Users\\Predator\\Desktop\\Demo\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\Predator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Predator\\Desktop\\Demo\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\raj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Predator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -64,21 +66,23 @@
         }
       }
     },
-    "C:\\Users\\raj\\Desktop\\Dev\\E-Commerce-Demo\\eShopOnWeb-master\\tests\\UnitTests\\UnitTests.csproj": {
+    "C:\\Users\\Predator\\Desktop\\Demo\\E-Commerce-Demo\\eShopOnWeb-master\\tests\\UnitTests\\UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\raj\\Desktop\\Dev\\E-Commerce-Demo\\eShopOnWeb-master\\tests\\UnitTests\\UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\Predator\\Desktop\\Demo\\E-Commerce-Demo\\eShopOnWeb-master\\tests\\UnitTests\\UnitTests.csproj",
         "projectName": "UnitTests",
-        "projectPath": "C:\\Users\\raj\\Desktop\\Dev\\E-Commerce-Demo\\eShopOnWeb-master\\tests\\UnitTests\\UnitTests.csproj",
-        "packagesPath": "C:\\Users\\raj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\raj\\Desktop\\Dev\\E-Commerce-Demo\\eShopOnWeb-master\\tests\\UnitTests\\obj\\",
+        "projectPath": "C:\\Users\\Predator\\Desktop\\Demo\\E-Commerce-Demo\\eShopOnWeb-master\\tests\\UnitTests\\UnitTests.csproj",
+        "packagesPath": "C:\\Users\\Predator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Predator\\Desktop\\Demo\\E-Commerce-Demo\\eShopOnWeb-master\\tests\\UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\raj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Predator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -90,8 +94,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\raj\\Desktop\\Dev\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\raj\\Desktop\\Dev\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\Predator\\Desktop\\Demo\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\Predator\\Desktop\\Demo\\E-Commerce-Demo\\eShopOnWeb-master\\src\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -104,6 +108,42 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.10.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.console": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
           "imports": [
             "net461"
           ],

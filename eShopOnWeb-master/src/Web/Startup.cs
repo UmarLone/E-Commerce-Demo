@@ -51,14 +51,19 @@ namespace Microsoft.eShopWeb.Web
 
         private void ConfigureInMemoryDatabases(IServiceCollection services)
         {
-            // use in-memory database
+            //// use in-memory database
+            //services.AddDbContext<CatalogContext>(c =>
+            //    c.UseSqlServer($@"Server=(local)\GATEKEEPERHUB;Initial Catalog=E-SHOP;Integrated Security=True;User ID=;Password=;Connection Timeout=30;"));
+
+            //// Add Identity DbContext
+            //services.AddDbContext<AppIdentityDbContext>(options =>
+            //    options.UseSqlServer($@"Server=(local)\GATEKEEPERHUB;Initial Catalog=E-SHOP-Login;Integrated Security=True;User ID=;Password=;Connection Timeout=30;"));
             services.AddDbContext<CatalogContext>(c =>
-                c.UseSqlServer($@"Server=(local)\GATEKEEPERHUB;Initial Catalog=E-SHOP;Integrated Security=True;User ID=;Password=;Connection Timeout=30;"));
+               c.UseSqlServer(Configuration.GetConnectionString("CatalogConnection")));
 
             // Add Identity DbContext
             services.AddDbContext<AppIdentityDbContext>(options =>
-                options.UseSqlServer($@"Server=(local)\GATEKEEPERHUB;Initial Catalog=E-SHOP-Login;Integrated Security=True;User ID=;Password=;Connection Timeout=30;"));
-
+                options.UseSqlServer(Configuration.GetConnectionString("IdentityConnection")));
             ConfigureServices(services);
         }
 
